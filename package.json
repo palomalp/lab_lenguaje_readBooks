@@ -1,0 +1,26 @@
+{
+  "name": "lab_lenguaje_readbooks",
+  "version": "1.0.0",
+  "description": "Ejercicios entregables módulo 2 (lenguaje)",
+  "main": "index.js",
+  "scripts": {
+    "start": "rimraf dist && parcel ./src/index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palomalp/lab_lenguaje_readBooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palomalp/lab_lenguaje_readBooks/issues"
+  },
+  "homepage": "https://github.com/palomalp/lab_lenguaje_readBooks#readme",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "npm": "^6.14.9",
+    "parcel": "^1.12.4",
+    "rimraf": "^3.0.2"
+  }
+}
