@@ -9,7 +9,7 @@ interface Book {
 }
 
 
-var books: Array<Book> = [
+var books: Array<Book> = [ //con los tipos de interface Book
     { title: "Harry Potter y la piedra filosofal", isRead: true },
     { title: "Canción de hielo y fuego", isRead: false },
     { title: "Devastación", isRead: true },
